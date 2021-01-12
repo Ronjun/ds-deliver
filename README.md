@@ -13,17 +13,14 @@
  DS Delivery é um sistema de pedidos e entregas onde o cliente faz o pedido pelo app web e o entregador recebe em seu celular e tem a opção de entregá-lo. <br/>
  Link do projeto em produção: https://sds2-ronjun.netlify.app/ 
 
-<h4 align="center"> 
-	🚧  DS Delivery -- Em construção...  🚧
-</h4>
-
 ## Imagens
 ![Tela inicial](https://github.com/Ronjun/resources/blob/main/dsdelivery/01.png) ![catálogo](https://github.com/Ronjun/resources/blob/main/dsdelivery/02.png)
+![Mobile App](https://github.com/Ronjun/resources/blob/main/dsdelivery/03.png)
 
 ## Instalação
 #### Pré-Requisitos
 Para executar este projeto é necessário instalar o [Git](https://git-scm.com/), [java 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html), [Spring Tools 4](https://spring.io/tools),
-[Node.js](https://nodejs.org/en/)
+[Node.js](https://nodejs.org/en/), [expo](https://docs.expo.io/get-started/installation/)
 #### Rodar localmente
 Para rodar localmente primeiro abra o terminal do git e clone o projeto com:
 ` git clone https://github.com/Ronjun/ds-delivery ` .
@@ -34,6 +31,10 @@ O servidor será executado em http://localhost:8080
 Acesse a pasta front-web. <br/>
 Instale as dependencias necessárias com o comando `npm install` .<br/>
 Execute o comando `npm run start`.
+#### Mobile App
+Acesse a pasta front-mobile. <br/>
+Instale as dependencias necessárias com o comando `npm install` ou `yarn install`(se você tiver o yarn instalado). <br/>
+execute o comando `expo start` após o fim da instalação. <br/>
 
 ## Tecnologias
 Foram utilizados até o momento:
@@ -45,6 +46,10 @@ Foram utilizados até o momento:
 #### Frontend
 * TypeScript
 * React
+* React-Leaflet
+#### Mobile App
+* React Native
+* TypeScript
 
 ## Licença
 Ver [licença](https://github.com/Ronjun/ds-delivery/blob/main/LICENSE) 
